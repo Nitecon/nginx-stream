@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:stable
 
 RUN echo 'include /etc/nginx/stream.d/*.conf;' >> /etc/nginx/nginx.conf
 
